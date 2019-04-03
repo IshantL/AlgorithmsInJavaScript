@@ -34,3 +34,25 @@ function isPalindrome(string) {
   }
    
   isPalindrome("Madam, I'm Adam");
+
+
+/* var palindrom = str =>{
+   return str === str.split("").reverse().join("");
+}
+console.log( palindrom("abcba")); */
+
+/* var palindrom = str =>{
+    return str.split("").every((char,i)=>{
+        return char === str[str.length - i -1]
+    });
+ }
+ console.log( palindrom("abcba")); */
+
+ var palindrom = str =>{
+    return str.split("").forEach((char,i)=>{
+        debugger;
+        return char === str[str.length - i -1]
+    });
+ }
+ console.log( palindrom("abcba"));
+
