@@ -1,6 +1,6 @@
 # DS and algo
 
-Steps:
+## Steps:
 Please open index.html in browser and open console for the output
 Replace the src in index.html script tag to load the desired algorithm.
 
